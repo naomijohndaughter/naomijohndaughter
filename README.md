@@ -2,6 +2,9 @@
 Template from html5up.net | @ajlkn
 
 # image resolution adjustment
+identify -ping oldname.jpg
+convert -resize 500x500 oldname.jpg newname.jpg
+convert -resize 333x500 oldname.jpg newname.jpg
 
 
 # More details from AJ:
