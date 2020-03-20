@@ -39,7 +39,8 @@
           <!-- <li><a href="#sports">Sports</a></li> -->
           <li><a href="graduations.html">Graduations</a>
           <li><a href="travel.html">Travel</a></li>
-
+          <li><a href="#inquire">Inquire</a></li>
+        </ul>
         </ul>
       </nav>
       <nav class="main">
@@ -78,7 +79,9 @@
           <!-- <li><a href="#sports">Sports</a></li> -->
           <li><a href="graduations.html">Graduations</a>
           <li><a href="travel.html">Travel</a></li>
-          <!-- <li>
+          <li><a href="#inquire">Inquire</a></li>
+        </ul>
+        <!-- <li>
 										<a href="#">
 											<h3>Lorem ipsum</h3>
 											<p>Feugiat tempus veroeros dolor</p>
@@ -104,32 +107,34 @@
           <div class="image featured"><img src="images/weddings/SNJ_0310.jpg" alt="ring on blossoming bush" /></div>
         </div>
         <div class="col-8 col-6-medium col-12-small">
-          <p>
-            <input type="text" placeholder="Name" />
-          </p>
-          <p>
-            <input type="text" placeholder="Email" />
-          </p>
-          <p>
-            <input type="text" placeholder="City and state" />
-          </p>
-          <p>
-            <input type="text" placeholder="Event Date" />
-          </p>
-          <p>
-            <input type="text" placeholder="Budget" />
-          </p>
-          <p>
-            Message - tell me about your desired location, whether the date is flexible, and your vision!
-            <textarea rows="4" cols="50" type="text">
-            </textarea>
-          </p>
+          <form action="https://formspree.io/snjohnson789@gmail.com" method="POST">
 
-          <p>
-            <ul class="actions">
-              <li><a href="single.html" class="button large">Submit</a></li>
-            </ul>
-          </p>
+            <p>
+              <input type="text" name="name" placeholder="Name" />
+            </p>
+            <p>
+              <input type="text" name="email" placeholder="Email" />
+            </p>
+            <p>
+              <input type="text" name="date" placeholder="Event Date" />
+            </p>
+            <p>
+              <input type="text" name="location" placeholder="Event city and state" />
+            </p>
+            <p>
+              <input type="text" name="budget" placeholder="Budget" />
+            </p>
+            <p>
+              Message - tell me about your desired location, whether the date is flexible, and your vision!
+              <textarea rows="4" cols="50" type="text" name="message">
+            </textarea>
+            </p>
+
+            <p>
+              <input class="actions button large" type="submit"></input>
+              </ul>
+            </p>
+          </form>
         </div>
       </div>
 
