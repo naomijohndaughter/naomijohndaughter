@@ -17,6 +17,9 @@ then cd into the directory
 
 From: https://askubuntu.com/questions/454564/count-total-number-of-files-in-particular-directory-with-specific-extension
 
+# my forms work thanks to:
+https://formspree.io/
+
 
 It's been a long time coming, but I've finally gotten around to creating a brand new
 blog-style template (and the first since Striped, which came out waaaaay back in 2013).
