@@ -7,8 +7,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 # image resolution adjustment
 
 identify -ping oldname.jpg
-convert -resize 500x500 oldname.jpg newname.jpg
-convert -resize 333x500 oldname.jpg newname.jpg
+convert -resize 1080x1080 oldname.jpg newname.jpg
 
 # count how many photos I took
 
