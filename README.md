@@ -5,7 +5,7 @@ html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 # image resolution adjustment
-
+Install imagemagick (sudo apt-get install imagemagick)
 identify -ping oldname.jpg
 convert -resize 1080x1080 oldname.jpg newname.jpg
 
