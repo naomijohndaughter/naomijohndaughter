@@ -8,6 +8,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 Install imagemagick (sudo apt-get install imagemagick)
 identify -ping oldname.jpg
 convert -resize 1080x1080 oldname.jpg newname.jpg
+convert -resize 3240x3240 oldname.jpg newname.jpg
 
 # count how many photos I took
 
