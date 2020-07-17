@@ -5,6 +5,7 @@ html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 # image resolution adjustment
+
 Install imagemagick (sudo apt-get install imagemagick)
 identify -ping oldname.jpg
 convert -resize 1080x1080 oldname.jpg newname.jpg
@@ -21,9 +22,10 @@ then cd into the directory
 From: <https://askubuntu.com/questions/454564/count-total-number-of-files-in-particular-directory-with-specific-extension>
 
 # Facebook cover photo dimensions are (2.628205128205128 or 1.777777777777778)
--Displays at 820 pixels wide by 312 pixels tall on your Page on computers and 640 pixels wide by 360 pixels tall on smartphones.
--Must be at least 400 pixels wide and 150 pixels tall.
--Loads fastest as an sRGB JPG file that's 851 pixels wide, 315 pixels tall and less than 100 kilobytes.
+
+\-Displays at 820 pixels wide by 312 pixels tall on your Page on computers and 640 pixels wide by 360 pixels tall on smartphones.
+\-Must be at least 400 pixels wide and 150 pixels tall.
+\-Loads fastest as an sRGB JPG file that's 851 pixels wide, 315 pixels tall and less than 100 kilobytes.
 
 # my forms work thanks to
 
