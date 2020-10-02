@@ -3376,6 +3376,13 @@ input, select, textarea {
 		width: 100%;
 	}
 
+	.announcement {
+		color: red;
+		/* border-color: red;
+		border-style: solid !important;
+		align: left;  */
+	}
+
 /* Sidebar */
 
 	#sidebar {
