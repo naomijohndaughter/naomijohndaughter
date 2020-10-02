@@ -2720,12 +2720,12 @@ input, select, textarea {
 
 			.mini-posts {
 				display: block;
-				width: 100%;
+				width: 25%;
 			}
 
 				.mini-posts > * {
 					margin: 0 0 2em 0;
-					width: 100%;
+					width: 25%;
 				}
 
 		}
