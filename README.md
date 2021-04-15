@@ -5,7 +5,7 @@ html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 # Poses
-tips: 
+tips:
 -try to get the engagement ring to show
 -have them pancake hold hands when their fingers might be visible (waffle if not)
 -don't bother to keep looking for different locations; just do different poses
@@ -46,7 +46,7 @@ F. HANDS
 3. waist/neck (girl puts her hand on his 'jawline' to prevent strangle look; good to prevent double chin if he's super tall)
 4. chin/arm
 5. high hands
-6. 
+6.
 
 G. FACE
 1. both smiling at the camera
@@ -83,6 +83,10 @@ From: <https://askubuntu.com/questions/454564/count-total-number-of-files-in-par
 # my forms work thanks to
 
 <https://formspree.io/>
+
+# example portfolios:
+-split into wedding and portraits: https://www.cataracarrell.com
+
 
 # notes from the person's template
 
