@@ -1,0 +1,12 @@
+#stylized input, select, textarea {
+  display: block;
+  /* font-size:11px; */
+  padding: 4px 2px;
+  border: solid 1px #aacfe4;
+  width: 50%;
+  margin: 2px 0 20px 10px;
+}
+
+#stylized textarea {
+  width: 90%;
+}

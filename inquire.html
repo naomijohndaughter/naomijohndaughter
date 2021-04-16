@@ -19,6 +19,7 @@
 			photographer, photos, camera, nikon, photograph">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/formspree.css" />
 </head>
 
 <body class="is-preload">
@@ -81,69 +82,126 @@
 
     <!-- Main -->
     <div id="main">
+      <article id="graduation" class="panel post">
 
-      <!-- Post -->
-      <header>
-        <div class="title">
-          <h2>Inquire & Book</h2>
-          <p>I'm honored to be considered! Contact me today so we can talk about details.</p>
-        </div>
-      </header>
-      <div class="row">
-        <div class="col-4 col-6-medium col-12-small">
+        <!-- Post -->
+        <header>
+          <div class="title">
+            <h2>Inquire & Book</h2>
+            <p>I'm honored to be considered! Contact me today so we can talk about details.</p>
+          </div>
+        </header>
+
+        <section>
+          <div class="row">
+            <!-- <div class="col-4 col-6-medium col-12-small">
           <div class="image featured"><img src="images/engagements/SNJ_0310.jpg" alt="ring on blossoming bush" /></div>
-        </div>
-        <div class="col-8 col-6-medium col-12-small">
-          <form action="https://formspree.io/f/mwkwjwva"method="POST">
-            <p>
-              <input type="text" name="name" placeholder="Name" />
-            </p>
-            <p>
-              <input type="text" name="email" placeholder="Email" />
-            </p>
-            <p>
-              <input type="text" name="date" placeholder="Event Date" />
-            </p>
-            <p>
-              <input type="text" name="location" placeholder="Event city and state" />
-            </p>
-            <p>
-              <input type="text" name="budget" placeholder="Budget" />
-            </p>
-            <p>
-              Message - tell me about your desired location, whether the date is flexible, and your vision!
-              <textarea rows="4" cols="50" type="text" name="message">
+        </div> -->
+            <div class="col-12" id="stylized" class="myform">
+              <form action="https://formspree.io/f/mwkwjwva" method="POST">
+                <label for="full-name">Full Name</label>
+                <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+
+                <label for="email-address">Email Address</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@google.com" required="">
+
+                <label for="session-type">Session type</label>
+                <select name="session-type" required="">
+                  <option value="Select" selected="" disabled="">Select ↓</option>
+                  <option value="Solo">Just me!</option>
+                  <option value="Proposal">Proposal</option>
+                  <option value="Engagement">Engagement session</option>
+                  <option value="Bridal">Bridal session</option>
+                  <option value="Wedding">Wedding or elopement</option>
+                  <option value="Maternity">Maternity</option>
+                  <option value="Other">Other</option>
+                </select>
+
+                <label for="session-length">Session length</label>
+                <select name="session-length">
+                  <option value="Select" selected="" disabled="">Select ↓</option>
+                  <option value="Mini">Mini portraits - 20 minutes</option>
+                  <option value="Standard">Standard portraits - 40 minutes</option>
+                  <option value="Elopment">Mini wedding - under 3 hours</option>
+                  <option value="Wedding">Standard wedding - over 3 hours</option>
+                </select>
+                <label for="event-date">Event Date</label>
+                <input type="text" name="date" placeholder="Event Date" />
+
+                <fieldset class="locale">
+                  <legend>Location</legend>
+                  <input type="text" name="city" placeholder="City" required="">
+                  <select name="state" required="">
+                    <option value="Select" selected="" disabled="">State</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="DC">District Of Columbia</option>
+                    <option value="ID">Idaho</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="OR">Oregon</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="UT">Utah</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="OTHER">Other</option>
+                  </select>
+                  <!-- <input type="text" name="postal-code" placeholder="12345" required=""> -->
+                </fieldset>
+
+                <legend>How did you hear of me?</legend>
+                <select name="state" required="">
+                  <option value="Select" selected="" disabled="">Select ↓</option>
+                  <option value="FB">Facebook Ad</option>
+                  <option value="FB">Facebook Group</option>
+                  <option value="Google">Google Business</option>
+                  <option value="Google">Google Search</option>
+                  <option value="IG">Instagram Ad</option>
+                  <option value="Knot">the Knot</option>
+                  <option value="Othert">Other</option>
+                  <option value="People">Word of mouth</option>
+                  <option value="FB">Yelp</option>
+                </select>
+                <label for="source">Can you share more details?</label>
+                <input type="text" name="date" placeholder="Who recommended me, what post did you see, etc" />
+                <!-- <input type="text" name="postal-code" placeholder="12345" required=""> -->
+                </fieldset>
+                <p>
+                  Other - is there anything else I need to know?
+                  <textarea rows="4" cols="50" type="text" name="message">
             </textarea>
-            </p>
+                </p>
 
-            <p>
-              <input class="actions button large" type="submit"></input>
-              </ul>
-            </p>
-          </form>
-        </div>
-      </div>
+                <p>
+                  <input class="actions button large" type="submit"></input>
+                  </ul>
+                </p>
+              </form>
+            </div>
+          </div>
+        </section>
 
 
 
 
-      <!-- Footer -->
-      <!-- TO DO -->
-      <!-- TODO -->
-      <!-- "Follow along"
+
+        <!-- Footer -->
+        <!-- TO DO -->
+        <!-- TODO -->
+        <!-- "Follow along"
       "Join me on Instragram where I sharemy artistry and passion"
 
 See what Fabian did to get people to follow him on Instagram: https://fabianophoto.com/inquire/
 
      -->
-      <section id="footer">
-        <ul class="icons">
-          <li><a href="#https://www.facebook.com/naomi.johndaughter/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-          <li><a href="https://www.instagram.com/naomi.johndaughter/"><span class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-          <li><a href="#naomijohndaughter@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-        </ul>
-        <p class="copyright">&copy; 2021 Naomi Johnson. Design: <a href="http://html5up.net">HTML5 UP</a>.</p>
-      </section>
+        <section id="footer">
+          <ul class="icons">
+            <li><a href="#https://www.facebook.com/naomi.johndaughter/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="https://www.instagram.com/naomi.johndaughter/"><span class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#naomijohndaughter@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+          <p class="copyright">&copy; 2021 Naomi Johnson. Design: <a href="http://html5up.net">HTML5 UP</a>.</p>
+        </section>
 
 
 
