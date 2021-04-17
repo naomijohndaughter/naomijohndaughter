@@ -103,10 +103,10 @@
                 <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
 
                 <label for="email-address">Email Address</label>
-                <input type="email" name="_replyto" id="email-address" placeholder="email@google.com" required="">
+                <input type="email" name="email" id="email-address" placeholder="email@google.com" required="">
 
                 <label for="session-type">Session type</label>
-                <select name="session-type" required="">
+                <select name="Type" required="">
                   <option value="Select" selected="" disabled="">Select ↓</option>
                   <option value="Solo">Solo portraits</option>
                   <option value="Proposal">Proposal portraits</option>
@@ -118,21 +118,24 @@
                 </select>
 
                 <label for="session-length">Session length</label>
-                <select name="session-length">
+                <select name="Length">
                   <option value="Select" selected="" disabled="">Select ↓</option>
                   <option value="Mini">Mini portraits - 20 minutes</option>
                   <option value="Standard">Standard portraits - 40 minutes</option>
                   <option value="Elopment">Mini wedding - under 3 hours</option>
                   <option value="Wedding">Standard wedding - over 3 hours</option>
                 </select>
-                <label for="event-date">Event Date</label>
-                <input type="text" name="date" placeholder="Event Date" />
+
+                <label for="date">When would you like the session to be?</label>
+                <input type="text" name="date" placeholder="Exact date or range" />
 
                 <fieldset class="locale">
-                  <legend>Location</legend>
+                  <!-- <legend>Location</legend> -->
+                  <label for="city">City</label>
                   <input type="text" name="city" placeholder="City" required="">
+                  <label for="state">State</label>
                   <select name="state" required="">
-                    <option value="Select" selected="" disabled="">State</option>
+                    <option value="Select" selected="" disabled="">Select ↓</option>
                     <option value="CA">California</option>
                     <option value="CO">Colorado</option>
                     <option value="DC">District Of Columbia</option>
@@ -149,33 +152,31 @@
                   <!-- <input type="text" name="postal-code" placeholder="12345" required=""> -->
                 </fieldset>
 
-                <legend>How did you hear of me?</legend>
-                <select name="state" required="">
-                  <option value="Select" selected="" disabled="">Select ↓</option>
-                  <option value="FB">Facebook Ad</option>
-                  <option value="FB">Facebook Group</option>
-                  <option value="Google">Google Business</option>
-                  <option value="Google">Google Search</option>
-                  <option value="IG">Instagram Ad</option>
-                  <option value="Knot">the Knot</option>
-                  <option value="Othert">Other</option>
-                  <option value="People">Word of mouth</option>
-                  <option value="FB">Yelp</option>
-                </select>
-                <label for="source">Can you share more details?</label>
-                <input type="text" name="date" placeholder="Who recommended me, what post did you see, etc" />
-                <!-- <input type="text" name="postal-code" placeholder="12345" required=""> -->
+                <fieldset class="Source">
+                  <label for="Source">How did you hear of me?</label>
+                  <select name="Source" required="">
+                    <option value="Select" selected="" disabled="">Select ↓</option>
+                    <option value="Bark">Bark</option>
+                    <option value="FB Ad">Facebook Ad</option>
+                    <option value="FB Group">Facebook Group</option>
+                    <option value="Google Business">Google Business</option>
+                    <option value="Google Search">Google Search</option>
+                    <option value="IG Ad">Instagram Ad</option>
+                    <option value="Knot">the Knot</option>
+                    <option value="Other">Other</option>
+                    <option value="Thumbtack">Thumbtack</option>
+                    <option value="Wire">the Wire</option>
+                    <option value="People">Word of mouth</option>
+                    <option value="Yelp">Yelp</option>
+                  </select>
+                  <label for="Details">Can you share more details about how you found me?</label>
+                  <input type="text" name="Details" placeholder="Who recommended me, what post did you see, etc?" />
+                  <!-- <input type="text" name="postal-code" placeholder="12345" required=""> -->
                 </fieldset>
-                <p>
                   Other - is there anything else I need to know?
                   <textarea rows="4" cols="50" type="text" name="message">
-            </textarea>
-                </p>
-
-                <p>
+                  </textarea>
                   <input class="actions button large" type="submit"></input>
-                  </ul>
-                </p>
               </form>
             </div>
           </div>
