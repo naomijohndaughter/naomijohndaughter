@@ -88,6 +88,11 @@ From: <https://askubuntu.com/questions/454564/count-total-number-of-files-in-par
 namecheap.com
 netlify.com
 
+
+# example portfolios:
+-split into wedding and portraits: https://www.cataracarrell.com
+
+
 # notes from the person's template
 
 It's been a long time coming, but I've finally gotten around to creating a brand new
